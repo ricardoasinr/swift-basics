@@ -8,3 +8,13 @@ var pi: Float = 3.14159265
 
 var pi2: Double = 3.141592658
 //Double only 15 decimals
+
+//Binary
+var binary = 0b1001
+
+//Octal
+var octal = 0o45
+
+//Hexa
+var hexa = 0x11
+
