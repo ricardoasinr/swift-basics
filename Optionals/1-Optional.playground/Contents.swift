@@ -48,3 +48,12 @@ else
 {
     print("El segundo numero es mayor")
 }
+
+let tendraValor :String? = "Relleno"
+let stringForzado :String = tendraValor! //si o si va a tener valor
+
+let stringAsumido :String! = "Si o si será un string rellenol" //Aqui es optional
+
+let stringImplicito: String = stringAsumido; //Quitamos el optional!! 
+print(stringForzado)
+print(stringImplicito)
