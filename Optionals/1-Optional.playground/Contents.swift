@@ -3,7 +3,6 @@ import UIKit
 /*
  //Optional [1]
 let posible = "31"
-
 let convertir = Int(posible)
 */
 
@@ -26,19 +25,19 @@ else
 }
 
 //Método número 2
-
 if let correcto = numero{
     //print("El numero \(numero) no es un valor NIL, tiene un //valor de \(correcto)")
     print("Esta todo ok")
 }
 //Ya no es necesario utilizar el numero, es decir el optional
-
 //Método número 3
 //Múltiples correcciones
 let numero1 :String = "2"
 let numero2 :String = "3"
 
-if let PrimerNumero = Int(numero1),
+
+if let PrimerNumero = Int(numero1), //Si el primer numero puedo convertirlo a entero
+                                    //Puedo seguir, caso contrario no se puede hacer nada
    let SegundoNumero = Int(numero2),
    PrimerNumero>SegundoNumero
 {
